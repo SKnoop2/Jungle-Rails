@@ -1,21 +1,27 @@
-<h1>Admin::Dashboard#show</h1>
+<h1>Admin >> Dashboard</h1>
 
 
 <div class="panel panel-default items">
   <table class="table table-bordered">
     <thead>
       <tr>
-        <th colspan="2">Total Products</th>
-        <th>Total Categories</th>
+        <th>Database Info</th>
+        <th>Total Count</th>
+        <th>Link</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td colspan="2"><%= @product %></td>
-        <td colspan="2"><%= @category %></td>
+        <td>Products</td>
+        <td><%= @product %></td>
+        <td><a href="/admin/products"> All Products </a></td>
       </tr>
+      <tr>
+      <td>Categories</td>
+      <td><%= @category %></td>
+      <td><a href="/admin/categories"> All Categories </a></td>
+    </tr>
     </tbody>
   </table>
 </div>
 
-<%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
