@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
- 
+
+  # login routes to render form, login and logout
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+  
   # signup routes: First renders form in browser, second captures form info & creates user in database
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
