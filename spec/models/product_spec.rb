@@ -3,7 +3,6 @@ require "rails_helper"
 RSpec.describe Product, type: :model do
   describe 'Validations' do
 
-
     it "should save when all fields filled out" do
       @category = Category.new(name: "test_category")
       @product = Product.new(
