@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
   validates :first_name,  presence: true, length: { minimum: 3 }
   validates :last_name,  presence: true, length: { minimum: 3 }
   validates :password,  presence: true, length: { in: 6..20 }
+  validates :password_confirmation,  presence: true, length: { in: 6..20 }
   before_save { self.email.downcase!}
 
   def self.authenticate_with_credentials(email, password)
