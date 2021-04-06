@@ -8,11 +8,11 @@ Rails.application.routes.draw do
   # signup routes: First renders form in browser, second captures form info & creates user in database
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
-
+  
+  
   root to: 'products#index'
-
-  get '/about', to: 'about#index'
-
+  
+  resources :about, only: [:index]
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
