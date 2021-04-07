@@ -2,12 +2,12 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of learning how Rails works by example. Base code was provided by Lighthouse Labs and build in Week 9 of their Web Development Bootcamp.
 
-![Create an account](link)
-![Add any item to cart](link)
-![Order summary](link)
-![Admin login](link)
-![Admin dashboard](link)
-![Admin product management page](link)
+![Create an account](https://github.com/SKnoop2/Jungle-Rails/blob/master/docs/sign-up.png?raw=true)
+![Add any item to cart](https://github.com/SKnoop2/Jungle-Rails/blob/master/docs/checkout.png?raw=true)
+![Order summary](https://github.com/SKnoop2/Jungle-Rails/blob/master/docs/order_summary.jpg?raw=true)
+![Admin login](https://github.com/SKnoop2/Jungle-Rails/blob/master/docs/admin_login.png?raw=true)
+![Admin dashboard](https://github.com/SKnoop2/Jungle-Rails/blob/master/docs/admin_dashboard.png?raw=true)
+![Admin product management page](https://github.com/SKnoop2/Jungle-Rails/blob/master/docs/admin_products.png?raw=true)
 
 ## Additional Setup Steps for Apple M1 Machines
 
