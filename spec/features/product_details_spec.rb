@@ -20,12 +20,12 @@ RSpec.feature "ProductDetails", type: :feature, js: true do
   scenario "They can see the product details page" do
     # visit home page
     visit root_path
-    #find element on page
+    #find element on page & click on link
     first('footer.actions').click_link('Details »')
+    # ensure item can be found on once page loads
     expect(page).to have_css('article.product-detail')
 
     # save_screenshot
-    # click on a product to navigate to product page
   end
 end
 
